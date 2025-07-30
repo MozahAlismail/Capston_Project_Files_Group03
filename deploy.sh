@@ -22,6 +22,7 @@ railway link
 echo "🔧 Setting environment variables..."
 railway variables set PYTHONUNBUFFERED=1
 railway variables set PYTHONDONTWRITEBYTECODE=1
+railway variables set NIXPACKS_PYTHON_VERSION="3.11"
 
 # Deploy
 echo "🚀 Deploying to Railway..."
