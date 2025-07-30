@@ -14,7 +14,6 @@ from together import Together
 
 # Set your Hugging Face token directly here (REPLACE WITH YOUR ACTUAL TOKEN)
 from huggingface_hub import login
-# os.environ["HUGGINGFACE_API_TOKEN"] = "Token_Here"  # Replace with your actual token
 login(token=os.environ["HUGGINGFACE_API_TOKEN"])
 
 # Global variables to store initialized components
@@ -71,9 +70,6 @@ def initialize_llm():
     print("⚠️  Requires internet access and a Together API key.")
 
     try:
-        
-        # os.environ["TOGETHER_API_KEY"] = "Token_Here"  # Replace with your actual token
-        
         # Set your Together API key
         client = Together(api_key=os.environ["TOGETHER_API_KEY"])
 

@@ -178,3 +178,11 @@ logs/
 *.key
 config.ini
 secrets.json
+
+# Railway deployment
+.railway/
+railway-*.json
+
+# Environment variables
+.env.local
+.env.production

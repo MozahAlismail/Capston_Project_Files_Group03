@@ -9,7 +9,6 @@ from rag import rag_chat, initialize_rag_system
 
 # Set your Hugging Face token directly here (REPLACE WITH YOUR ACTUAL TOKEN)
 from huggingface_hub import login
-# os.environ["HUGGINGFACE_API_TOKEN"] = "Token_Here"  # Replace with your actual token
 login(token=os.environ["HUGGINGFACE_API_TOKEN"])
 
 # Define request model for better validation
