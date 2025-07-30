@@ -14,7 +14,7 @@ from together import Together
 
 # Set your Hugging Face token directly here (REPLACE WITH YOUR ACTUAL TOKEN)
 from huggingface_hub import login
-os.environ["HUGGINGFACE_API_TOKEN"] = "Token_Here" # Replace with your actual token
+# os.environ["HUGGINGFACE_API_TOKEN"] = "Token_Here"  # Replace with your actual token
 login(token=os.environ["HUGGINGFACE_API_TOKEN"])
 
 # Global variables to store initialized components
@@ -65,39 +65,41 @@ def initialize_vectorstore():
     return vector_db, retriever
         
 def initialize_llm():
-        """Initialize the Together AI hosted LLaMA 3.3 70B model"""
-        global llm
-        print("🔄 Loading Together AI model (via API)...")
-        print("⚠️  Requires internet access and a Together API key.")
+    """Initialize the Together AI hosted LLaMA 3.3 70B model"""
+    global llm
+    print("🔄 Loading Together AI model (via API)...")
+    print("⚠️  Requires internet access and a Together API key.")
 
-        try:
-            # Set your Together API key
-            TOGETHER_API_KEY = "Token_Here" # Replace with your actual token
-            client = Together(api_key=TOGETHER_API_KEY)
+    try:
+        
+        # os.environ["TOGETHER_API_KEY"] = "Token_Here"  # Replace with your actual token
+        
+        # Set your Together API key
+        client = Together(api_key=os.environ["TOGETHER_API_KEY"])
 
-            # Model name hosted on Together
-            model_name = "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free"
-            print(f"📦 Using Together AI model: {model_name}")
+        # Model name hosted on Together
+        model_name = "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free"
+        print(f"📦 Using Together AI model: {model_name}")
 
-            # Define and assign the LLM function globally
-            def _llm(messages):
-                response = client.chat.completions.create(
-                    model=model_name,
-                    messages=messages,
-                    temperature=0.7,
-                    max_tokens=512,
-                    top_p=0.9
-                )
-                return response.choices[0].message.content.strip()
+        # Define and assign the LLM function globally
+        def _llm(messages):
+            response = client.chat.completions.create(
+                model=model_name,
+                messages=messages,
+                temperature=0.7,
+                max_tokens=512,
+                top_p=0.9
+            )
+            return response.choices[0].message.content.strip()
 
-            # Set the global llm to the defined function
-            llm = _llm
-            globals()["llm"] = llm
+        # Set the global llm to the defined function
+        llm = _llm
+        globals()["llm"] = llm
 
-        except Exception as e:
-            print(f"❌ Error initializing Together AI model: {e}")
-            print(f"🔍 Error details: {type(e).__name__}: {str(e)}")
-            raise
+    except Exception as e:
+        print(f"❌ Error initializing Together AI model: {e}")
+        print(f"🔍 Error details: {type(e).__name__}: {str(e)}")
+        raise
 
 def create_llm_chain():
     """Create the LLM chain"""
