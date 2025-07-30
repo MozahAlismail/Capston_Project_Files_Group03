@@ -4,6 +4,8 @@ import uvicorn
 import nest_asyncio
 import os
 import traceback
+from rag import rag_chat, initialize_rag_system
+
 
 # Set your Hugging Face token directly here (REPLACE WITH YOUR ACTUAL TOKEN)
 from huggingface_hub import login
@@ -15,12 +17,11 @@ class ChatRequest(BaseModel):
     question: str
 
 # Initialize the RAG function with proper error handling
-rag_chat = None
 rag_initialized = False
 
 def initialize_rag():
     """Initialize RAG system on first request"""
-    global rag_chat, rag_initialized
+    global rag_initialized
     
     if rag_initialized:
         return True
@@ -28,7 +29,7 @@ def initialize_rag():
     try:
         
         print("Loading original RAG implementation...")
-        from rag import rag_chat, initialize_rag_system
+        # Functions are already imported at the top
         print("✅ Original RAG loaded successfully")
         
         # Initialize the system
@@ -57,9 +58,9 @@ async def health_check():
         "status": "healthy", 
         "service": "llm chainlit API", 
         "version": "1.0.0",
-        "rag_loaded": rag_chat is not None,
+        "rag_loaded": True,  # Functions are imported at module level
         "rag_initialized": rag_initialized,
-        "environment": "production" if (os.getenv("RAILWAY_ENVIRONMENT") or os.getenv("HUGGINGFACE_API_TOKEN")) else "development"
+        "environment": "development"
     }
 
 @app.post("/chat")
@@ -73,13 +74,6 @@ async def chat(chat_request: ChatRequest):
                     status_code=500, 
                     detail="Failed to initialize RAG system. Check server logs."
                 )
-        
-        # Check if RAG is properly loaded
-        if rag_chat is None:
-            raise HTTPException(
-                status_code=500, 
-                detail="RAG system not properly initialized. Check server logs for import errors."
-            )
         
         question = chat_request.question.strip()
         
