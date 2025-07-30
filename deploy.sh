@@ -18,12 +18,6 @@ railway login
 echo "🔗 Linking to Railway project..."
 railway link
 
-# Set environment variables
-echo "🔧 Setting environment variables..."
-railway variables set PYTHONUNBUFFERED=1
-railway variables set PYTHONDONTWRITEBYTECODE=1
-railway variables set NIXPACKS_PYTHON_VERSION="3.11"
-
 # Deploy
 echo "🚀 Deploying to Railway..."
 railway up
