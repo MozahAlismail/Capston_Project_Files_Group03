@@ -220,38 +220,18 @@ def main():
     print(f"   FastAPI URL: {FASTAPI_URL}")
     print(f"   FastAPI Host: {FASTAPI_HOST}:{FASTAPI_PORT}")
     print(f"   Chainlit Port: {CHAINLIT_PORT}")
-    print(f"   Railway Environment: {'Yes' if os.getenv('RAILWAY_ENVIRONMENT') else 'No'}")
-    print(f"   HuggingFace Token: {'Set' if os.getenv('HUGGINGFACE_API_TOKEN') else 'Not Set'}")
     print()
     
-    # Environment-specific startup logic
-    if ENVIRONMENT_TYPE == "Railway":
-        print("🚂 Railway deployment detected")
-        print("   - API and Chainlit will run on the same port")
-        print("   - Platform will manage the API server")
-        print("   - Using 0.0.0.0 host for external access")
-    elif ENVIRONMENT_TYPE == "Production":
-        print("🌐 Production environment detected")
-        print("   - Will manage API server automatically")
-        print("   - Using 0.0.0.0 host for external access")
-        print("   - API and Chainlit on separate ports")
-        
-        # Pre-start API server for faster first response
-        if start_api_server():
-            print("✅ API server pre-started successfully")
-        else:
-            print("⚠️  API server will be started when needed")
+    print("💻 Local development mode")
+    print("   - Will manage API server automatically")
+    print("   - Using localhost (127.0.0.1) for local access")
+    print("   - API and Chainlit on separate ports")
+    
+    # Pre-start API server for faster first response
+    if start_api_server():
+        print("✅ API server pre-started successfully")
     else:
-        print("💻 Local development mode")
-        print("   - Will manage API server automatically")
-        print("   - Using localhost (127.0.0.1) for local access")
-        print("   - API and Chainlit on separate ports")
-        
-        # Pre-start API server for faster first response
-        if start_api_server():
-            print("✅ API server pre-started successfully")
-        else:
-            print("⚠️  API server will be started when needed")
+        print("⚠️  API server will be started when needed")
     
     print()
     print(f"🌐 Starting Chainlit interface on {FASTAPI_HOST}:{CHAINLIT_PORT}...")
