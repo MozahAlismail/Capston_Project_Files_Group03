@@ -1,0 +1,100 @@
+{"question": "What is the purpose of the AI Adoption Framework developed by SDAIA?", "answer": "To provide a structured roadmap for the adoption of AI technologies across sectors in Saudi Arabia, supporting Vision 2030 goals."}
+{"question": "Who is the primary audience for the AI Adoption Framework?", "answer": "Leaders, executives, and specialists responsible for AI transformation."}
+{"question": "What are the main stages of AI adoption outlined in the framework?", "answer": "Establishment, direction and priorities, AI unit setup, maturity assessment, activation and adoption, and continuous improvement."}
+{"question": "What does SDAIA stand for?", "answer": "Saudi Data and Artificial Intelligence Authority."}
+{"question": "What is the first step in defining AI direction and priorities?", "answer": "Holding meetings with officials to assess the current situation and clarify strategic goals."}
+{"question": "What is the purpose of establishing an AI Unit within an organization?", "answer": "To oversee AI initiatives, align with strategic goals, and manage AI-related responsibilities and governance."}
+{"question": "What are key responsibilities of the AI Unit?", "answer": "Identifying AI opportunities, designing solutions, policy updates, and monitoring implementation."}
+{"question": "Name one national reference document for defining professional standards in AI.", "answer": "The National Framework for Professional Standards."}
+{"question": "What are the five key aspects of AI readiness assessment?", "answer": "Institutional readiness, data, human capabilities, technology/infrastructure, and AI governance."}
+{"question": "How does the framework define an 'Advanced' AI maturity level?", "answer": "An entity that follows best practices and actively contributes to AI development."}
+{"question": "Why is data considered a fundamental enabler in AI?", "answer": "Because all AI applications depend on quality data for model training and performance."}
+{"question": "How does technology infrastructure support AI adoption?", "answer": "By providing computational resources and enabling efficient AI development and deployment."}
+{"question": "What role do human capabilities play in AI adoption?", "answer": "Ensuring internal expertise exists to manage, develop, and ethically apply AI solutions."}
+{"question": "What are the core AI Ethics principles outlined by SDAIA?", "answer": "Fairness, Privacy & Security, Humanity, Social & Environmental Benefits, Reliability & Safety, Transparency & Explainability, Accountability & Responsibility."}
+{"question": "What does the principle of Fairness in AI emphasize?", "answer": "Preventing bias and ensuring equitable treatment across all user groups."}
+{"question": "Why is Privacy & Security critical in AI systems?", "answer": "To protect personal data and maintain cybersecurity throughout the AI lifecycle."}
+{"question": "What does the Humanity principle promote in AI system design?", "answer": "Alignment with human rights and cultural values, ensuring AI serves humanity."}
+{"question": "What is the goal of the Reliability & Safety principle?", "answer": "To ensure AI systems operate as intended without causing harm."}
+{"question": "How is Transparency achieved in AI systems?", "answer": "By explaining decision processes and making models interpretable."}
+{"question": "What is meant by Accountability in AI Ethics?", "answer": "Assigning clear responsibility to developers, owners, and operators for AI outcomes."}
+{"question": "Why should organizations adopt a use-case driven approach?", "answer": "To realize incremental value and build stakeholder confidence in AI."}
+{"question": "How should entities identify priority AI use cases?", "answer": "Based on business needs and strategic alignment."}
+{"question": "What role does communication play in AI adoption?", "answer": "It helps raise awareness and reduce resistance to AI initiatives."}
+{"question": "Give an example of an AI awareness activity.", "answer": "Hosting internal workshops or publishing success stories."}
+{"question": "Why is change management important in AI transformation?", "answer": "To ensure cultural and organizational alignment with AI goals."}
+{"question": "What are the four stages of the AI System Lifecycle?", "answer": "Plan & Design, Prepare Input Data, Build & Validate, Deploy & Monitor."}
+{"question": "What is a key activity during the 'Prepare Input Data' phase?", "answer": "Data cleansing and transformation into model input features."}
+{"question": "What must be done during 'Deploy and Monitor'?", "answer": "Continuous evaluation of model performance and fairness."}
+{"question": "Define Machine Learning (ML).", "answer": "A subfield of AI focused on learning from data to make predictions without explicit programming."}
+{"question": "What is the role of an AI System Owner?", "answer": "To apply AI systems and ensure they meet intended goals."}
+{"question": "What does AI Maturity refer to?", "answer": "The level of an organization\u2019s preparedness and capabilities to adopt AI."}
+{"question": "What is a high-risk AI system?", "answer": "One that may significantly impact safety, rights, or well-being and requires strict oversight."}
+{"question": "What must be done if an AI system uses sensitive data?", "answer": "Justify the use and ensure compliance with ethical and legal standards."}
+{"question": "Why are KPIs essential for AI initiatives?", "answer": "To track performance and guide improvements."}
+{"question": "What is the purpose of continuous monitoring in AI systems?", "answer": "To ensure ongoing alignment with ethical, technical, and strategic goals."}
+{"question": "Name one tool used for assessing AI fairness.", "answer": "AI Fairness 360 by IBM."}
+{"question": "What is the AI Explainability 360 toolkit used for?", "answer": "To interpret and explain the outputs of AI models."}
+{"question": "What is the importance of the AI Ethics Checklist?", "answer": "It ensures compliance with ethical standards during system design and deployment."}
+{"question": "What document mandates SDAIA to oversee AI in Saudi Arabia?", "answer": "Council of Ministers\u2019 Resolution No. (292), dated 1441/4/27 AH."}
+{"question": "What is required from adopting entities regarding AI Ethics?", "answer": "Publication and compliance with SDAIA\u2019s ethical principles."}
+{"question": "What is MLOps?", "answer": "A set of practices for managing machine learning lifecycle including development, deployment, and monitoring."}
+{"question": "Why is algorithm auditing important?", "answer": "To detect and prevent unexpected or biased behavior in AI systems."}
+{"question": "What does \u201cvalidity\u201d mean in the context of AI models?", "answer": "The degree to which a model measures what it is intended to measure."}
+{"question": "Who is responsible for auditing AI systems?", "answer": "The AI System Assessor."}
+{"question": "What is a motivational badge in AI ethics?", "answer": "A recognition awarded for demonstrating ethical compliance in AI development."}
+{"question": "What is an unacceptable risk in AI systems?", "answer": "Risks that may harm people\u2019s safety or rights, such as social profiling or manipulation."}
+{"question": "What should entities do before deploying high-risk AI systems?", "answer": "Conduct pre- and post-conformity assessments."}
+{"question": "How can organizations educate employees about AI ethics?", "answer": "Through workshops, articles, videos, and training."}
+{"question": "Why is transparency critical for public trust in AI?", "answer": "Because it allows users to understand and challenge AI decisions."}
+{"question": "How can an entity show continuous improvement in AI?", "answer": "By applying lessons learned and updating practices based on KPI tracking."}
+{"question": "What is the purpose of the AI Adoption Framework developed by SDAIA?", "answer": "To provide a structured roadmap for the adoption of AI technologies across sectors in Saudi Arabia, supporting Vision 2030 goals."}
+{"question": "Who is the primary audience for the AI Adoption Framework?", "answer": "Leaders, executives, and specialists responsible for AI transformation."}
+{"question": "What are the main stages of AI adoption outlined in the framework?", "answer": "Establishment, direction and priorities, AI unit setup, maturity assessment, activation and adoption, and continuous improvement."}
+{"question": "What does SDAIA stand for?", "answer": "Saudi Data and Artificial Intelligence Authority."}
+{"question": "What is the first step in defining AI direction and priorities?", "answer": "Holding meetings with officials to assess the current situation and clarify strategic goals."}
+{"question": "What is the purpose of establishing an AI Unit within an organization?", "answer": "To oversee AI initiatives, align with strategic goals, and manage AI-related responsibilities and governance."}
+{"question": "What are key responsibilities of the AI Unit?", "answer": "Identifying AI opportunities, designing solutions, policy updates, and monitoring implementation."}
+{"question": "Name one national reference document for defining professional standards in AI.", "answer": "The National Framework for Professional Standards."}
+{"question": "What are the five key aspects of AI readiness assessment?", "answer": "Institutional readiness, data, human capabilities, technology/infrastructure, and AI governance."}
+{"question": "How does the framework define an 'Advanced' AI maturity level?", "answer": "An entity that follows best practices and actively contributes to AI development."}
+{"question": "Why is data considered a fundamental enabler in AI?", "answer": "Because all AI applications depend on quality data for model training and performance."}
+{"question": "How does technology infrastructure support AI adoption?", "answer": "By providing computational resources and enabling efficient AI development and deployment."}
+{"question": "What role do human capabilities play in AI adoption?", "answer": "Ensuring internal expertise exists to manage, develop, and ethically apply AI solutions."}
+{"question": "What are the core AI Ethics principles outlined by SDAIA?", "answer": "Fairness, Privacy & Security, Humanity, Social & Environmental Benefits, Reliability & Safety, Transparency & Explainability, Accountability & Responsibility."}
+{"question": "What does the principle of Fairness in AI emphasize?", "answer": "Preventing bias and ensuring equitable treatment across all user groups."}
+{"question": "Why is Privacy & Security critical in AI systems?", "answer": "To protect personal data and maintain cybersecurity throughout the AI lifecycle."}
+{"question": "What does the Humanity principle promote in AI system design?", "answer": "Alignment with human rights and cultural values, ensuring AI serves humanity."}
+{"question": "What is the goal of the Reliability & Safety principle?", "answer": "To ensure AI systems operate as intended without causing harm."}
+{"question": "How is Transparency achieved in AI systems?", "answer": "By explaining decision processes and making models interpretable."}
+{"question": "What is meant by Accountability in AI Ethics?", "answer": "Assigning clear responsibility to developers, owners, and operators for AI outcomes."}
+{"question": "Why should organizations adopt a use-case driven approach?", "answer": "To realize incremental value and build stakeholder confidence in AI."}
+{"question": "How should entities identify priority AI use cases?", "answer": "Based on business needs and strategic alignment."}
+{"question": "What role does communication play in AI adoption?", "answer": "It helps raise awareness and reduce resistance to AI initiatives."}
+{"question": "Give an example of an AI awareness activity.", "answer": "Hosting internal workshops or publishing success stories."}
+{"question": "Why is change management important in AI transformation?", "answer": "To ensure cultural and organizational alignment with AI goals."}
+{"question": "What are the four stages of the AI System Lifecycle?", "answer": "Plan & Design, Prepare Input Data, Build & Validate, Deploy & Monitor."}
+{"question": "What is a key activity during the 'Prepare Input Data' phase?", "answer": "Data cleansing and transformation into model input features."}
+{"question": "What must be done during 'Deploy and Monitor'?", "answer": "Continuous evaluation of model performance and fairness."}
+{"question": "Define Machine Learning (ML).", "answer": "A subfield of AI focused on learning from data to make predictions without explicit programming."}
+{"question": "What is the role of an AI System Owner?", "answer": "To apply AI systems and ensure they meet intended goals."}
+{"question": "What does AI Maturity refer to?", "answer": "The level of an organization\u2019s preparedness and capabilities to adopt AI."}
+{"question": "What is a high-risk AI system?", "answer": "One that may significantly impact safety, rights, or well-being and requires strict oversight."}
+{"question": "What must be done if an AI system uses sensitive data?", "answer": "Justify the use and ensure compliance with ethical and legal standards."}
+{"question": "Why are KPIs essential for AI initiatives?", "answer": "To track performance and guide improvements."}
+{"question": "What is the purpose of continuous monitoring in AI systems?", "answer": "To ensure ongoing alignment with ethical, technical, and strategic goals."}
+{"question": "Name one tool used for assessing AI fairness.", "answer": "AI Fairness 360 by IBM."}
+{"question": "What is the AI Explainability 360 toolkit used for?", "answer": "To interpret and explain the outputs of AI models."}
+{"question": "What is the importance of the AI Ethics Checklist?", "answer": "It ensures compliance with ethical standards during system design and deployment."}
+{"question": "What document mandates SDAIA to oversee AI in Saudi Arabia?", "answer": "Council of Ministers\u2019 Resolution No. (292), dated 1441/4/27 AH."}
+{"question": "What is required from adopting entities regarding AI Ethics?", "answer": "Publication and compliance with SDAIA\u2019s ethical principles."}
+{"question": "What is MLOps?", "answer": "A set of practices for managing machine learning lifecycle including development, deployment, and monitoring."}
+{"question": "Why is algorithm auditing important?", "answer": "To detect and prevent unexpected or biased behavior in AI systems."}
+{"question": "What does \u201cvalidity\u201d mean in the context of AI models?", "answer": "The degree to which a model measures what it is intended to measure."}
+{"question": "Who is responsible for auditing AI systems?", "answer": "The AI System Assessor."}
+{"question": "What is a motivational badge in AI ethics?", "answer": "A recognition awarded for demonstrating ethical compliance in AI development."}
+{"question": "What is an unacceptable risk in AI systems?", "answer": "Risks that may harm people\u2019s safety or rights, such as social profiling or manipulation."}
+{"question": "What should entities do before deploying high-risk AI systems?", "answer": "Conduct pre- and post-conformity assessments."}
+{"question": "How can organizations educate employees about AI ethics?", "answer": "Through workshops, articles, videos, and training."}
+{"question": "Why is transparency critical for public trust in AI?", "answer": "Because it allows users to understand and challenge AI decisions."}
+{"question": "How can an entity show continuous improvement in AI?", "answer": "By applying lessons learned and updating practices based on KPI tracking."}
