@@ -1,43 +1,20 @@
-# Core web framework
 fastapi
 uvicorn[standard]
-
-# Chainlit for the chat interface
 chainlit
-
-# HTTP client for API communication
 httpx
-
-# LangChain components
 langchain
 langchain-core
 langchain-community
-
-# Vector database
 chromadb
-
-# Embeddings and transformers
 sentence-transformers
 transformers
 tokenizers
-
-# PyTorch (CPU version for Railway)
-torch --index-url https://download.pytorch.org/whl/cpu
+torch
 accelerate
-
-# Hugging Face integrations
 huggingface-hub
-
-# Async support
 nest-asyncio
-
-# Data processing
 numpy
-
-# API dependencies
 python-multipart
 pydantic
 requests
-
-# Together AI API
 together
